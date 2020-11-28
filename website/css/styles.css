@@ -1,0 +1,255 @@
+/* Styles for my new important website */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: beige;
+}
+.active {
+    color: #888;
+    border-bottom: 0.5px solid #888;
+}
+
+.home {
+    background: beige;
+}
+
+/*
+.about {
+    background: pink;
+}
+*/
+
+
+.center {
+    text-align: center;
+}
+header {
+/*    margin-bottom: 20px;*/
+    overflow: hidden;
+/*    if there is stuff floating in the container, in order to push things, need to overflow hidden*/
+/*    background: yellow;*/
+}
+.inner-header {
+    width: 940px;
+    margin: 20px auto;
+}
+
+#logo {
+    width: 130px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-top: 20px;
+}
+
+nav li {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+    
+   
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.home h1 {
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+#wrapper {
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+main {
+    width: 580px;
+    float: left;
+    padding: 20px;
+    border: 1px solid #666;
+}
+
+main img {
+    padding-bottom: 20px;
+}
+
+
+.carbs-page {
+    margin-bottom: 30px;
+}
+
+/******daily image******/
+
+.monday {
+    background: #fff8cd;
+}
+.friday {
+    background: #e8ffff;
+}
+.saturday {
+    background: #c3aed6;
+}
+.sunday {
+    background: #d9adad;
+}
+.tuesday {
+    background: #ffe2e2;
+}
+.wednesday {
+    background: #bfdcae;
+}
+.thursday {
+    background: #feceab;
+}
+
+/************* Table ****************/
+
+table {
+    border: 1px solid gold;
+    width: 580px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+.candidates td:nth-child(1),
+.candidates td:nth-child(2){
+    width: 150px;
+}
+
+.candidates td:nth-child(2) {
+    padding-left: 20px;
+}
+*/
+
+.base td:nth-child(1),
+.base td:nth-child(2){
+    width: 150px;
+}
+
+.base td:nth-child(2) {
+    padding-left: 20px;
+}
+
+aside {
+    width: 340px;
+    float: right;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+aside img {
+    margin: 10px auto 15px auto;
+    
+}
+aside ul {
+    margin: 20px 0 0 20px;
+    list-style-type: none;
+    font-size: 0.95rem;
+}
+aside ul a {
+    text-decoration: none;
+    color: #000;
+}
+aside ul a:hover {
+    color: #666;
+}
+
+footer {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid tan;
+    clear: both;
+}
+
+footer li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    color: #666;
+        
+}
+
+footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.adminer {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.4em;
+    margin: 20px 100px;
+}
+
+/********From Css ***********/
+
+form {
+                max-width: 580px;
+    margin-bottom: 20px;
+                
+            }
+            input[type=text],
+            input[type=email],
+            input[type=tel],
+            textarea {
+                width: 100%;
+                height: 30px;
+            } 
+            
+            textarea {
+                height: 120px;
+                margin-bottom: 20px;
+            }
+            input {
+                margin-bottom: 10px;
+            }
+            fieldset {
+                color: #666;
+                padding: 10px 18px 10px 10px;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .box {
+                width: 600px;
+                margin: 20px auto;
+                background: lightgreen;
+                padding: 20px;
+                border: 1px solid green;
+            }
+
+            select {
+                margin-bottom: 10px;
+            }
+            span {
+                display: block;
+                color: red;
+                font-style: italic;
+            }
