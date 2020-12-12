@@ -1,0 +1,375 @@
+/* Styles for my new important website */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: beige;
+    font-family: 'ralewayregular';
+    line-height: 1.5;
+}
+
+.active {
+    color: #888;
+    border-bottom: 0.5px solid #888;
+}
+
+.center {
+    text-align: center;
+}
+
+/**************** Header ****************/
+
+header {
+    /*    margin-bottom: 20px;*/
+    overflow: hidden;
+    /*    if there is stuff floating in the container, in order to push things, need to overflow hidden*/
+    background: #D0E9D0;
+}
+
+.inner-header {
+    width: 940px;
+    margin: 20px auto;
+}
+
+/*
+.under-header {
+    background: #e4e4a1;
+    background: #e1f1e1;
+    background: #D0E9D0;
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    z-index: -1;
+}
+*/
+
+#logo {
+    width: 120px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-top: 7px;
+}
+
+nav li {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+
+
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.log {
+    font-size: 0.85em;
+    text-align: center;
+    width: 200px;
+}
+.log a {
+    text-decoration: underline;
+}
+.log a:hover {
+    color: #888;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'ralewaybold';
+    margin: 25px auto;
+}
+
+.not-home {
+    margin: -5px auto;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+.gifts-page {
+    
+}
+#wrapper {
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/**************** Main ****************/
+
+main {
+    width: 580px;
+    float: left;
+    padding: 20px;
+/*    border: 1px solid #666;*/
+}
+
+main img {
+    padding-bottom: 20px;
+}
+
+main ul {
+    margin-left: 40px;
+}
+
+main li {
+    list-style-type: none;
+}
+.carbs-page {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-family: 'ralewaybold';
+}
+
+.successful {
+    float: right;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #888;
+}
+
+.home-content {
+    clear: both;
+}
+
+/************* Table ****************/
+
+table {
+    border: 1px solid gold;
+    width: 580px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.base td:nth-child(1),
+.base td:nth-child(2){
+    width: 150px;
+}
+
+.base td:nth-child(2) {
+    padding-left: 20px;
+}
+
+/**************** Aside ****************/
+
+aside {
+    width: 340px;
+    float: right;
+    padding: 20px 0 0 0;
+}
+
+aside img {
+    margin-bottom: 15px; 
+
+}
+aside ul {
+    margin-left: 40px; 
+/*    list-style-type: none;*/
+/*    font-size: 0.95rem;*/
+}
+
+aside ul a {
+    color: #000;
+}
+
+aside ul a:hover {
+    color: #666;
+}
+
+/**************** footer ****************/
+
+footer {
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid tan;
+    clear: both;
+}
+
+footer li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+    color: #666;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.adminer {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 700px;
+}
+
+blockquote a {
+    color: #666;
+}
+
+/********Form Css ***********/
+
+.login {
+    margin: 0 auto;
+} 
+form {
+    max-width: 580px;
+    margin-bottom: 20px;
+
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    width: 100%;
+    height: 30px;
+} 
+
+textarea {
+    height: 120px;
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+fieldset {
+    color: #666;
+    padding: 10px 18px 10px 10px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.box {
+    width: 600px;
+    margin: 20px auto;
+    background: lightgreen;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.options {
+    margin-left: 40px;
+    list-style-type: none;
+}
+select {
+    margin-bottom: 10px;
+}
+span, .error {
+    display: block;
+    color: red;
+    font-style: italic;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-family: 'ralewayregular';
+    font-size: 1em;
+}
+
+button[type=submit],
+button[type=button] {
+    padding: 5px 15px;
+    font-family: 'ralewayregular';
+    font-size: 1em;
+}
+
+.log-msg {
+    margin-top: 15px;
+}
+
+/*******embed fonts---- Fredoka************/
+
+@font-face {
+    font-family: 'fredoka_dingbatsregular';
+    src: url('../fonts/fredoka_dingbats-webfont.woff2') format('woff2'),
+         url('../fonts/fredoka_dingbats-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('../fonts/fredokaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fredokaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***********embed fonts---- Raleway*******/
+
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('../fonts/raleway-black-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
