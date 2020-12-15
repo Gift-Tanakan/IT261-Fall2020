@@ -33,13 +33,12 @@ if(isset($_SESSION['success'])) : ?>
 
 <?php endif ?>
 
-<div id="wrapper">
-
 <main>
     <h1 class="not-home"><?php echo $mainHeadline; ?></h1>
 <!--    <h3>Why mindful giving is important?</h3>-->
     <img src="images/planet.png" alt="Mindful Gifts">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <p>There are many times that the gifts we give others end up at the corner of their home, underneath a pile of other stuff, or even go right into the storage, unused. We know that moment when we receive something that we wish we don't, something we truly don't need. The best we do is donating or selling. But majority won't make that effort. Dumping it in the trash is easier.</p>
+<p>This happens everywhere and every year. Those things contribute a large amount of trash in landfills, polluting the planet. This is the time to have more conversations about how we can give gifts more mindfully. This is the space that helps you learn about the reasons of mindful gift giving and the ways and resources to gift people we love with minimal cost to the environment.</p>
 </main>
     
 
