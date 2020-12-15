@@ -21,7 +21,7 @@ $body = 'about inner';
 break;
 
 case 'why.php' :
-$title = 'Reasons to gift mindfully this holiday';
+$title = 'Why? | Reasons to gift mindfully this holiday';
 $mainHeadline = 'Reasons to gift mindfully this holiday';
 //$center = 'center';
 $body = 'why inner';
@@ -29,7 +29,15 @@ $body = 'why inner';
 break;
 
 case 'gifts.php' :
-$title = 'Ways to gift mindfully this holiday';
+$title = 'Gifts | Ways to gift mindfully this holiday';
+$mainHeadline = 'Ways to gift mindfully this holiday';
+//$center = 'center';
+$body = 'customers inner';
+
+break;
+        
+case 'gifts-view.php' :
+$title = 'Gifts | Ways to gift mindfully this holiday';
 $mainHeadline = 'Ways to gift mindfully this holiday';
 //$center = 'center';
 $body = 'customers inner';
@@ -37,7 +45,7 @@ $body = 'customers inner';
 break;
 
 case 'contact.php' :
-$title = 'Contact us';
+$title = 'Connect | Get more tips';
 $mainHeadline = 'Sign up to get more ideas!';
 //    $center = 'center';
 $body = 'contact inner';
@@ -84,7 +92,7 @@ $nav['index.php'] = 'Home';
 $nav['about.php'] = 'About';
 $nav['why.php'] = 'Why?';
 $nav['gifts.php'] = 'Gifts';
-$nav['contact.php'] = 'Contact';
+$nav['contact.php'] = 'Connect';
 //$nav['gallery.php'] = 'Gallery';
 
 function makeLinks($nav) {
