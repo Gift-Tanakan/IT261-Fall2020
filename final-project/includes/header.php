@@ -16,18 +16,26 @@
                     <ul>
 
                         <?php echo makeLinks($nav); ?>
-                        <br>
                         
-
-                        <?php 
-                        if(isset($_SESSION['UserName'])) : ?>
+                        
+<!--  Where the orginal isset for UserName is used to be (code is in the textEdit)-->
+                        
+                        <?php
+                                
+                        if(isset($_SESSION['UserName'])) { ?>
+<!--                            <div class="successful">-->
+                            <li class="log successful">Welcome, <strong><?php echo $_SESSION['UserName']; ?></strong>! 
+                         You're now logged in.<a href="index.php?logout='1'"> Log out!</a></li>
+<!--                                </div>-->
+                       <?php
+                        
+                        } else { ?>
                             
-                            <div class="successful">
-                            <p class="log">Welcome, <strong><?php echo $_SESSION['UserName']; ?></strong>!</p> 
-                        <p class="log"> You're now logged in.<a href="index.php?logout='1'"> Log out!</a></p>
-            
-                    </div>
-                    <?php endif ?>
+                            <li class="error successful"><strong>Sorry! You must log in first.</strong></li> 
+        
+                      <?php } ?>
+                                
+                   
                         
                     </ul>
 
