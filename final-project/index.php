@@ -32,8 +32,6 @@ if(isset($_SESSION['success'])) : ?>
 </div>
 
 <?php endif ?>
-
-<div id="wrapper">
     
     <div class="home-content">
     <h1 class="<?php echo $center; ?>"><?php echo $mainHeadline; ?></h1>
