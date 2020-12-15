@@ -61,6 +61,7 @@ nav ul {
 nav li {
     float: left;
     margin-left: 30px;
+    margin-top: 10px;
     list-style-type: none;
 
 
@@ -74,7 +75,7 @@ nav a {
 .log {
     font-size: 0.85em;
     text-align: center;
-    width: 200px;
+    width: 220px;
 }
 .log a {
     text-decoration: underline;
@@ -101,9 +102,7 @@ h2 {
 h3 {
     margin-bottom: 15px;
 }
-.gifts-page {
-    
-}
+
 #wrapper {
     clear: both;
     width: 940px;
@@ -139,7 +138,7 @@ main li {
 
 .successful {
     float: right;
-    margin-top: 15px;
+    margin-left: 30px;
     padding: 10px;
     border: 1px solid #888;
 }
@@ -147,7 +146,11 @@ main li {
 .home-content {
     clear: both;
 }
+/**************** login & Register ****************/
 
+a {
+    color: #888;
+}
 /************* Table ****************/
 
 table {
@@ -230,7 +233,7 @@ blockquote {
 }
 
 blockquote a {
-    color: #666;
+    color: #888;
 }
 
 /********Form Css ***********/
@@ -254,6 +257,7 @@ textarea {
 textarea {
     height: 120px;
     margin-bottom: 10px;
+    font-family: 'ralewayregular';
 }
 input {
     margin-bottom: 10px;
@@ -281,6 +285,7 @@ label {
 }
 select {
     margin-bottom: 10px;
+    font-family: 'ralewayregular';
 }
 span, .error {
     display: block;
