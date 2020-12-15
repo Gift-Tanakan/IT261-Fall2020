@@ -30,8 +30,6 @@ if(isset($_SESSION['success'])) : ?>
 
 <?php endif ?>
 
-<div id="wrapper">
-
     <h1 class="<?php echo $center; ?>"><?php echo $mainHeadline; ?></h1>
     
 <img class="adminer" src="images/adminer-users.png" alt="Users table DB">
