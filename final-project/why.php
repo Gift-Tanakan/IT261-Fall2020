@@ -32,8 +32,6 @@ if(isset($_SESSION['success'])) : ?>
 </div>
 
 <?php endif ?>
-
-<div id="wrapper">
     
 <!--daily-->
     
@@ -69,49 +67,49 @@ if (isset($_GET['today'])){
                 $class = 'planet';
                 $pic = 'planet.png';
                 $alt = 'Not hurt the planet';
-                $content = 'Originating in Brazil, the acai bowl is made of frozen acai palm fruit that is pureed and served as a smoothie in a bowl or glass. In Brazil, acai bowls are typically topped with granola, banana, and guaraná syrup. Several other variations, however, can be found throughout the country, including acai bowls topped with tapioca balls and a saltier version that is topped with shrimp or dried fish.';
+                $content = 'When we \'re more thoughtful about what to give others, there are less chances that they will end up not using it, throwing it away, or using it for a short time. When things got used, that means the resources (artificial/natural) used to produce them are used efficiently and not wasted. So gifting mindfully helps reduce the amount of wasted resources.' ;
                 break;
             case 'Saturday':
                 $gifts = 'It allows us to be creative.';
                 $class = 'creative';
                 $pic = 'create.png';
                 $alt = 'Be creative';
-                $content = 'This thick and creamy smoothie was created for the strawberry lover, but the banana flavor comes through nicely. It\'s refreshing without being too sweet and makes a fruity mid-morning snack.';
+                $content = 'When we want to give gifts that are special and unique to someone, this is a good opportunity to be creative at it. There are many things that you can be creative about such as giving out your yummy homemade dish or bakery, handcrafting scarfs or hat, painting, etc. Not only it represents your love and attention towards them, but also it helps you relax and enjoy building things by hands.';
                 break;
             case 'Sunday':
                 $gifts = 'Get to spend more time with our love ones.';
                 $class = 'time';
                 $pic = 'time.png';
                 $alt = 'Spend time with love ones';
-                $content = 'Do a little research into the background of the caesar salad and you’ll find that it is named not for some illustrious Roman emperor, but for Caesar Cardini, a Mexican chef working in Tijuana in the 1920s, who would dramatically serve it up table-side. (At least that’s how the story goes.) Fast forward to this century and you have what is probably the most popular restaurant salad in the country, with plenty of variations around the theme of romaine lettuce, garlic, Parmesan, and croutons.';
+                $content = 'Giving time and experience instead of items is another great way that we should do more. They say, "The best present is your presence." couldn\'t be more true especially during the pandemic. This may be possible only for those who live in the same household. You can come up with a new menu as a challenge and cook with your partner. You can have some fun painting with your child. Explore something that you have never done and take this chance to do it. Having a buddy doing it with you is a wonderful inspiration.';
                 break;
             case 'Monday':
                 $gifts = 'It reflects that you really care.';
                 $class = 'care';
                 $pic = 'care.png';
                 $alt = 'We care';
-                $content = 'Wheatgrass has more vitamin A than carrots, more vitamin C than oranges and the total amount of nutrients exceed the nutrients found in up to two and a half pounds of fresh green vegetables! A single teaspoon of wheatgrass has only 10 calories and almost 1 gram of protein, talk about getting a lot from a little! Wheatgrass shots help protect the body from colds, toxins, and harmful molecules. They are a powerhouse for healthy living.';
+                $content = 'Giving gifts mindfully doesn\'t only mean that you\'re well considered of consequences and the effects of the gifts towards the receivers, but it also shows that you care about the gifts\' materials and their impact at the end of life. This is a meaningful sustainability  approach that you can communicate through your presence. Great intention like this is contagious.';
                 break;
             case 'Tuesday':
                 $gifts = 'Get to support locals/small businesses.';
                 $class = 'support';
                 $pic = 'support.png';
                 $alt = 'Support locals';
-                $content = 'Kombucha tea is a fermented drink made with tea, sugar, bacteria and yeast. Although it\'s sometimes referred to as kombucha mushroom tea, kombucha is not a mushroom — it\'s a colony of bacteria and yeast. Kombucha tea is made by adding the colony to sugar and tea, and allowing the mix to ferment. The resulting liquid contains vinegar, B vitamins and a number of other chemical compounds.';
+                $content = 'This is your chance to support the businesses who need us most. When deciding to buy a gift, explore your options from small or local businesses first, before ordering it from a big company online. Local and small businesses are those who suffer trying to survive the crisis like COVID-19. Once you help them, your money will be flowing within your community, strengthening your local economy and lowering wealth gap.';
                 break;
             case 'Wednesday':
                 $gifts = 'Get to spend more time with our love ones.';
                 $class = 'time';
                 $pic = 'time.png';
                 $alt = 'Spend time with love ones';
-                $content = 'Do a little research into the background of the caesar salad and you’ll find that it is named not for some illustrious Roman emperor, but for Caesar Cardini, a Mexican chef working in Tijuana in the 1920s, who would dramatically serve it up table-side. (At least that’s how the story goes.) Fast forward to this century and you have what is probably the most popular restaurant salad in the country, with plenty of variations around the theme of romaine lettuce, garlic, Parmesan, and croutons.';
+                $content = 'Giving time and experience instead of items is another great way that we should do more. They say, "The best present is your presence." couldn\'t be more true especially during the pandemic. This may be possible only for those who live in the same household. You can come up with a new menu as a challenge and cook with your partner. You can have some fun painting with your child. Explore something that you have never done and take this chance to do it. Having a buddy doing with you is a wonderful inspiration.';
                 break;
             case 'Thursday':
                 $gifts = 'Get to support locals/small businesses.';
                 $class = 'support';
                 $pic = 'support.png';
                 $alt = 'Support locals';
-                $content = 'Kombucha tea is a fermented drink made with tea, sugar, bacteria and yeast. Although it\'s sometimes referred to as kombucha mushroom tea, kombucha is not a mushroom — it\'s a colony of bacteria and yeast. Kombucha tea is made by adding the colony to sugar and tea, and allowing the mix to ferment. The resulting liquid contains vinegar, B vitamins and a number of other chemical compounds.';
+                $content = 'This is your chance to support the businesses who need us most. When deciding to buy a gift, explore your options from small or local businesses first, before ordering it from a big company online. Local and small businesses are those who suffer trying to survive the crisis like COVID-19. Once you help them, your money will be flowing within your community, strengthening your local economy and lowering wealth gap.';
                 break;
 
         }
