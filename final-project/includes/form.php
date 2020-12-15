@@ -42,7 +42,11 @@
                 
                 <option value="Search engines"
                 <?php if(isset($_POST['medium']) && $_POST['medium'] == 'Search engines') {
-                echo 'selected = "selected"';}?>>Search engines</option> 
+                echo 'selected = "selected"';}?>>Search engines</option>
+                
+                <option value="Others"
+                <?php if(isset($_POST['medium']) && $_POST['medium'] == 'Others') {
+                echo 'selected = "selected"';}?>>Others</option>
                 
             </select>
         
