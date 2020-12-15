@@ -36,8 +36,6 @@ if(isset($_SESSION['success'])) : ?>
 
 <blockquote class="<?php echo $center ;?>">You'll be receiving a confirmation in your inbox very soon. We appreciate that you get started with this small but significant step of sustainability!</blockquote>
         
-
-</body>
     <?php 
     include('includes/footer.php');
     ?>
